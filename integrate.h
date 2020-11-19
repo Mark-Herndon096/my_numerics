@@ -5,6 +5,9 @@
 
 typedef void (* DERIV_TYP)(double *x_0, int m, double h, double ch, double *k_arr); 
 
+/* RK5 aims to be adaptive step size 4th order runge-kutta method based on Dorman
+prince method. Need to add step size control and interpolation at grid points. Need to specify 
+TSPAN and RK5 should return solution interpolated for the N points requested. */
 class runge_kutta{
     public:
         runge_kutta();
