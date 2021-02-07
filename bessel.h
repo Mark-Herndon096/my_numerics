@@ -1,9 +1,12 @@
+/* bessel.h && bessel.cpp are examples adapted from NUMERICAL RECIPES third edition
+   -- not claimed as my own intellectual property */ 
+
 #ifndef _BESSEL_H_
 #define _BESSEL_H_
 
 #include <iostream>
 #include <string>
-
+/* Bessel class needs further validation for modified bessel functions of the first kind. */
 class Bessel{
     public:
         Bessel();
